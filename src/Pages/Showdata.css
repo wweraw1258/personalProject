@@ -1,0 +1,21 @@
+.bgshow{
+    background-color: aquamarine;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.showbox{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 5%;
+
+}
+
+.imgprofile img{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}

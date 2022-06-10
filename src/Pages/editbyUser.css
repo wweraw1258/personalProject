@@ -1,0 +1,434 @@
+
+.imgboxUser{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+
+}
+.imgboxUser img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position:relative
+}
+
+.infoboxUser{
+    background-color: rgb(240, 240, 240);
+    width: 90%;
+    height: 70%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 5%;
+    
+}
+.profile-pic-wrapper {
+    margin: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pic-holder {
+    text-align: center;
+    position: relative;
+    border: 4px solid #CCCCCC;
+    background: #9b9999;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transition-property: border-color;
+  }
+  .pic-holder:hover{
+    border-color: #2ca8ff;
+}
+  
+  .pic-holder .pic {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  
+  .pic-holder .upload-file-block,
+  .pic-holder .upload-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(90, 92, 105, 0.7);
+    color: #f8f9fc;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  
+  .pic-holder .upload-file-block {
+    cursor: pointer;
+  }
+  
+  .pic-holder:hover .upload-file-block {
+    opacity: 1;
+  }
+  
+  .pic-holder.uploadInProgress .upload-file-block {
+    display: none;
+  }
+  
+  .pic-holder.uploadInProgress .upload-loader {
+    opacity: 1;
+  }
+  
+  /* Snackbar css */
+  .snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 14px;
+    transform: translateX(-50%);
+  }
+  
+  .snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+
+.appUser{
+    background-color: rgb(255, 255, 255);
+}
+
+.midbut{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imgbox p{ 
+    margin-top: 10px;
+}
+.rama-x{
+    margin-top: 10px;
+}
+
+.rama-xi{
+    margin-top: 25px;
+}
+.ramaya{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ramaya1{
+    margin-top: 50px;
+}
+.ramaya2{
+    margin-top: 10px;
+}
+.midbut1{
+    align-items:flex-end;
+    text-align:right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 380px){
+  .imgbox img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .pic-holder {
+    text-align: center;
+    position: relative;
+    border: 4px solid #CCCCCC;
+    background: #9b9999;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transition-property: border-color;
+  }
+
+}
+
+#address{
+  display: none;
+}
+
+.disadd{
+  display: none;
+}
+
+#address:checked ~ .showadd{
+  display: none;
+}
+
+#address:checked ~ .disadd{
+  display:inline;
+}
+.addbut{
+  width: 200px;
+ height: 30px; 
+ background: rgb(9, 131, 9);
+ border-radius: 5px;
+}
+.addtext #addfont{
+  z-index: 1;
+  color: #fff;
+  margin-left: 20px;
+}
+
+
+#editinput{
+  display: none;
+}
+.enableinput{
+  display: none;
+}
+.editbut{
+   width: 100px;
+  height: 30px; 
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  align-items: center;
+}
+.buttext #font{
+  z-index: 1;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#editinput:checked ~ .disableinput{
+  display: none;
+}
+
+#editinput:checked ~ .enableinput{
+  display:inline;
+}
+
+
+/* งานสอน */
+#editinput1{
+  display: none;
+}
+.enableinput1{
+  display: none;
+}
+.editbut1{
+   width: 100px;
+  height: 30px; 
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  align-items: center;
+}
+.buttext1 #font1{
+  z-index: 1;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#editinput1:checked ~ .disableinput1{
+  display: none;
+}
+
+#editinput1:checked ~ .enableinput1{
+  display:inline;
+}
+
+/* สาขาที่เชี่ยวชาญ */
+#editinput1A{
+  display: none;
+}
+.enableinput1A{
+  display: none;
+}
+.editbut1A{
+   width: 100px;
+  height: 30px; 
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  align-items: center;
+}
+.buttext1A #font1A{
+  z-index: 1;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#editinput1A:checked ~ .disableinput1A{
+  display: none;
+}
+
+#editinput1A:checked ~ .enableinput1A{
+  display:inline;
+}
+
+/* รางวัล */
+#editinput1B{
+  display: none;
+}
+.enableinput1B{
+  display: none;
+}
+.editbut1B{
+   width: 100px;
+  height: 30px; 
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  align-items: center;
+}
+.buttext1B #font1B{
+  z-index: 1;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#editinput1B:checked ~ .disableinput1B{
+  display: none;
+}
+
+#editinput1B:checked ~ .enableinput1B{
+  display:inline;
+}
+
+
+/* วิจัย */
+#editinput2{
+  display: none;
+}
+.enableinput2{
+  display: none;
+}
+.editbut2{
+   width: 100px;
+  height: 30px; 
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  align-items: center;
+}
+.buttext2 #font2{
+  z-index: 1;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#editinput2:checked ~ .disableinput2{
+  display: none;
+}
+
+#editinput2:checked ~ .enableinput2{
+  display:inline;
+}
+
+/* ผลงานด้านอื่น ๆ */
+#editinput2A{
+  display: none;
+}
+.enableinput2A{
+  display: none;
+}
+.editbut2A{
+   width: 100px;
+  height: 30px; 
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  align-items: center;
+}
+.buttext2A #font2A{
+  z-index: 1;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#editinput2A:checked ~ .disableinput2A{
+  display: none;
+}
+
+#editinput2A:checked ~ .enableinput2A{
+  display:inline;
+}
+
+
+/* ฟังก์ชั่นที่อยู่ */
+#editinputA{
+  display: none;
+}
+.enableinputA{
+  display: none;
+}
+.editbutA{
+   width: 100px;
+  height: 30px; 
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  align-items: center;
+}
+.buttextA #fontA{
+  z-index: 1;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#editinputA:checked ~ .disableinputA{
+  display: none;
+}
+
+#editinputA:checked ~ .enableinputA{
+  display:inline;
+}
+
+
+/* ฟังก์ชั่นที่อยู่ปัจจุบัน */
+#editinputB{
+  display: none;
+}
+.enableinputB{
+  display: none;
+}
+.editbutB{
+   width: 100px;
+  height: 30px; 
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  align-items: center;
+}
+.buttextB #fontB{
+  z-index: 1;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#editinputB:checked ~ .disableinputB{
+  display: none;
+}
+
+#editinputB:checked ~ .enableinputB{
+  display:inline;
+}

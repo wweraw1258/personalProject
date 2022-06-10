@@ -1,0 +1,42 @@
+.bgshowUser{
+    background-color: aquamarine;
+    width: 100%;
+
+}
+
+.showboxUser{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.imgprofileUser img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.middlepic{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fontcus1{
+    margin-top: 25px;
+    font-size: 15px;
+}
+.fontcus2{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.fontcus3{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.textcus{
+    font-weight: bold;
+}

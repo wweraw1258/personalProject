@@ -1,0 +1,172 @@
+.bgshowad{
+    background-color: aquamarine;
+    height: 100vh;
+
+}
+
+.showboxad{
+    background: aquamarine;
+    width: 100%;
+    height: 100%;
+   
+  
+
+}
+
+.imgprofile img{
+
+    width: 300px;
+
+    height: 300px;
+    border-radius: 50%;
+    margin: 5%;
+}
+.infobox2{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 20px
+}
+.rama-xi1{
+    margin-top: 25px;
+    font-size: 18px;
+}
+.rama-x1{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.rama-x2{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.rama-x3{
+    margin-left: 30px;
+    
+}
+.textbb{
+    font-weight: bold;
+}
+.imgCer{
+    width: 600px;
+}
+.lll{
+    overflow: scroll;
+}
+@media screen and (max-width: 1276px){
+    .imgprofile img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin: 20px;
+      }
+}
+@media screen and (max-width: 1144px){
+    .jam{
+        margin-left: 20px;
+    }
+    .jamimg{
+        align-items: center;
+        text-align: center;
+    }
+    .imgprofile img{
+
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 20px;
+      }
+  
+  }
+  @media screen and (max-width: 1012px){
+    .jam{
+        margin-left: 20px;
+    }
+    .jamimg{
+        align-items: center;
+        text-align: center;
+    }
+    .imgprofile img{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        /* border-radius: 50%;
+        margin: 20px;
+        width: 100%;
+        max-width: 200px;
+        height: 100%;
+        max-height: 200px; */
+      }
+  
+  }
+
+@media screen and (max-width: 780px){
+    .jam{
+        margin-left: 20px;
+    }
+    .jamimg{
+        align-items: center;
+        text-align: center;
+    }
+  
+  }
+  @media screen and (max-width: 720px){
+    .jam{
+        margin-left: 20px;
+    }
+    .jamimg{
+        align-items: center;
+        text-align: center;
+    }
+    .imgCer{
+        width: 450px;
+    }
+  
+  }
+  @media screen and (max-width: 565px){
+    .jam{
+        margin-left: 20px;
+    }
+    .jamimg{
+        align-items: center;
+        text-align: center;
+    }
+    .imgCer{
+        width: 350px;
+    }
+  
+  }
+  @media screen and (max-width: 470px){
+    .jam{
+        margin-left: 20px;
+    }
+    .jamimg{
+        align-items: center;
+        text-align: center;
+    }
+    .imgCer{
+        width: 250px;
+    }
+  
+  }
+
+@media screen and (max-width: 380px){
+    .imgprofile img{
+
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      
+    }
+    .imgCer{
+        width: 150px;
+    }
+    .jam{
+        margin-left: 20px;
+    }
+    .jamimg{
+        align-items: center;
+        text-align: center;
+    }
+  
+  }
+  

@@ -1,0 +1,26 @@
+.bgname{
+    position: fixed;
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.boxname{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 80%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+
+.butname{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

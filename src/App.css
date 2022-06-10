@@ -1,0 +1,10 @@
+.App {
+  text-align:left;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  z-index: 1;
+  width: calc(100%-0%);
+  max-height: 100vh;
+
+}
+

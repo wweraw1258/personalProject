@@ -1,0 +1,24 @@
+.bgname{
+  background-color: aquamarine;
+  width: 100%;
+  padding: 40px;
+}
+
+.boxname{
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  padding: 30px;
+  border-radius: 20px;
+  margin-left: 5%;
+}
+
+.butname{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.errcheck{
+  color: red;
+}

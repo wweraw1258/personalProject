@@ -1,0 +1,244 @@
+.Backgroundmain{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(134,187,119,1) 0%, rgba(161,232,147,1) 13%, rgba(183,205,185,1) 47%, rgba(49,209,81,1) 100%);
+}
+
+
+.Backgroundmainx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+
+
+.Box{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 70%; 
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+   
+}
+
+
+
+
+.Boxx{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    height: 80%; 
+    width: 50%;
+   
+
+
+   
+}
+.Boxxx{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    height: 80%; 
+    width: 50%;
+   
+}
+
+.xxs{
+   
+   flex-direction: column;
+   width: 500px;
+   height: 200px;
+ 
+  
+ 
+
+}
+
+
+
+.btnGg{
+    width: 100%;
+    height: 70px;
+    background-color:rgba(70, 245, 128, 0.959);
+    margin:10px auto;
+    border-radius: 20px ;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 30px;
+    font-size:17px;
+    color:rgb(88, 88, 88);
+
+    
+}
+
+
+.space{
+    width: 10px;
+}
+
+.title{
+    font-size: 150%;
+   color: rgb(0, 0, 0);
+}
+
+.line{
+    height: 70%;
+    width: 4px;
+    background-color: rgb(110, 110, 110);
+}
+
+
+
+.select {
+    background-color: blanchedalmond;
+
+  display: flex;
+
+}
+
+
+@media screen and (max-width: 820px) {
+    .Boxxx{
+        margin-top: 100px;
+        width: 40%;
+        height: 70%;
+    }
+    .Box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+        height: 80%; 
+        width: 70%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+    }
+    .line{
+       display: none;
+    }
+    .title{
+        font-size: 150%;
+    }
+    .Boxx{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        height: 80%; 
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 490px) {
+    .Boxxx{
+        margin-top: 100px;
+        width: 30%;
+        height: 60%;
+    }
+    .Box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+        height: 90%; 
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+    }
+    .line{
+       display: none;
+    }
+    .title{
+        font-size: 130%;
+    }
+    .Boxx{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        height: 80%; 
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .Boxxx{
+        margin-top: 100px;
+        width: 40%;
+        height: 80%;
+    }
+    .Box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+        height: 90%; 
+        width: 85%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+    }
+    .line{
+       display: none;
+    }
+    .title{
+        font-size: 110%;
+    }
+    .Boxx{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        height: 80%; 
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1030px) {
+    .title{
+        font-size: 120%;
+
+    }
+}
+@media screen and (max-width: 280px) {
+    .Boxxx{
+        margin-top: 100px;
+        width: 40%;
+        height: 80%;
+    }
+    .Box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+        height: 90%; 
+        width: 85%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+    }
+    .line{
+       display: none;
+    }
+    .title{
+        font-size: 110%;
+    }
+    .Boxx{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        height: 80%; 
+        width: 100%;
+    }
+}

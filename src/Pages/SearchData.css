@@ -1,0 +1,39 @@
+.Adata{
+    background: aquamarine;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 35%;
+}
+.Asss{
+    margin: 30px;
+    
+}
+.Atext{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.Aimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.Alll{
+    margin-top: 10px;
+}
+.coloricon{
+    color: rgb(189, 27, 27);
+}
+.coloricon2{
+    color: rgb(6, 107, 11);
+}
+.coloricon3{
+    color: rgb(80, 80, 75);
+}
+@media screen and (max-width: 770px) {
+
+    .Asss{
+      margin: 30px;
+      margin-bottom: 10px;
+    }   
+}
