@@ -115,7 +115,7 @@ function Login() {
           <div className="Boxx" >
             <div > 
              <label className="title"> 
-               ระบบบริหารงานข้อมูลบุคลากร
+               ควยออม
              </label>
               </div>
 
